@@ -20,7 +20,6 @@ class LocalFileDownload
     {
         //Check command of entered.
         $defaultEnterData = $this->defaultEnterData();
-        $defaultEnterData = $this->defaultEnterData();
         $this->commandData = array_merge($defaultEnterData, $commandData);
         if ($this->commandData['torl']) {
             $this->commandData['tor'] = $this->commandData['torl'];
